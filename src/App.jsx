@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <NewTodoForm onSubmit={addTodo}/>
-      <h1 className="">Items</h1>
+      <h2>Items</h2>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
     </>
   );
