@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { NewTodoForm } from "./NewTodoForm";
+import { HappyBirthday } from "./HappyBirthday";
 import "./styles.css";
 
 
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <>
-      <NewTodoForm />
+      <HappyBirthday />
     </>
   );
 }
