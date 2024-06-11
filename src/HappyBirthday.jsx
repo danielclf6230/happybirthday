@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-export function NewTodoForm({ onSubmit }) {
+export function HappyBirthday({ onSubmit }) {
   const [newItem, setNewItem] = useState("");
   const [clickedIndices, setClickedIndices] = useState([]);
 
